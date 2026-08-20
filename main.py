@@ -10,7 +10,7 @@ from google import genai
 from google.genai import errors
 
 # Initialize the modern client
-client = genai.Client(api_key="AIzaSyD_hWve16fHfNIy5hr-n6ZtVlnWyuo2fs0")
+client = genai.Client(api_key="YOUR_GEMINI_API_KEY")
 
 # Terminal Colors for UI
 CYAN = '\033[96m'
