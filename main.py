@@ -2,7 +2,7 @@ import time
 from google import genai
 
 # Initialize the modern client with your API key
-client = genai.Client(api_key="YOUR_GEMINI_API_KEY")
+client = genai.Client(api_key="AIzaSyD_hWve16fHfNIy5hr-n6ZtVlnWyuo2fs0")
 
 def fetch_weather_data(district):
     print(f"[*] Fetching live meteorological data for {district}...")
