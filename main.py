@@ -10,7 +10,7 @@ from google import genai
 from google.genai import errors
 
 # Initialize the modern client
-client = genai.Client(api_key="YOUR_GEMINI_API_KEY")
+client = genai.Client(api_key="Your_Gemini_API_Key")
 
 # Terminal Colors for UI
 CYAN = '\033[96m'
@@ -38,6 +38,7 @@ def generate_advisory(crop, weather, soil):
     Weather: {weather['temp']}°C, {weather['condition']}, Humidity {weather['humidity']}%.
     Soil: {soil['type']}, pH {soil['ph']}, Nitrogen: {soil['nitrogen']}.
     Provide a concise, 3-bullet-point advisory actionable for a farmer with limited resources.
+    Respond strictly in English.
     """
     
     models_to_try = ['gemini-2.5-flash', 'gemini-1.5-flash']
@@ -59,11 +60,11 @@ def generate_advisory(crop, weather, soil):
 def main():
     print(f"\n{BOLD}{GREEN}{'='*65}{RESET}")
     print(f"{BOLD}{GREEN}   SMART CROP ADVISORY SYSTEM - PUNJAB GOVT (PROTOTYPE)   {RESET}")
-    print(f"{BOLD}{GREEN}                   Release: Shankz.exe                    {RESET}")
+    print(f"{BOLD}{GREEN}                                      {RESET}")
     print(f"{BOLD}{GREEN}{'='*65}{RESET}\n")
     
     district = input(f"{YELLOW}Enter Farming District (e.g., Ludhiana): {RESET}")
-    crop = input(f"{YELLOW}Enter Current Crop (e.g., Paddy, Wheat): {RESET}\n")
+    crop = input(f"{YELLOW}Enter Current Crop (e.g., Paddy, Wheat): {RESET}")
     
     weather = fetch_weather_data(district)
     soil = fetch_soil_data(district)
