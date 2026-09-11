@@ -33,3 +33,8 @@ This repository serves as a post-mortem of that experience—showcasing not just
 2. Install dependencies: `pip install -r requirements.txt`
 3. Insert your Google Gemini API key into `main.py`.
 4. Run `python main.py` and follow the console prompts.
+
+## Proof of Participation 🏆
+Here is the official certification from the Ministry of Education and AICTE for competing in the Smart India Hackathon 2026 internal round at Arya College of Engineering.
+
+![SIH 2026 Participation Certificate](89_Shashank_Tayal.png)
