@@ -37,4 +37,4 @@ This repository serves as a post-mortem of that experience—showcasing not just
 ## Proof of Participation 🏆
 Here is the official certification from the Ministry of Education and AICTE for competing in the Smart India Hackathon 2026 internal round at Arya College of Engineering.
 
-![SIH 2026 Participation Certificate](certificates/89_Shashank_Tayal.png)
+![SIH 2026 Participation Certificate](certificates/89_Shashank%20Tayal.png)
